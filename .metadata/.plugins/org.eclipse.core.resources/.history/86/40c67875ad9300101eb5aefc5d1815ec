@@ -1,0 +1,34 @@
+package com.jdojo.intro;
+
+import javafx.application.Application;
+import javafx.scene.Scene;
+import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
+import javafx.scene.layout.VBox;
+import javafx.stage.Stage;
+
+public class ImprovedHelloFXApp extends Application{
+	public static void main (String[]args) {
+		Application.launch(args);
+	}
+	
+	@Override
+	public void start(Stage stage) {
+	
+		//Elementos da IU
+		Label nameLbl = new Label("Introduce o teu nome");
+		TextField nameFld = new TextField();
+		
+		
+		VBox root = new VBox();
+		root.getChildren().addAll(nameLbl, nameFld);
+		
+		//Creamos unha escena especificando nodo e tamaño
+		Scene scene = new Scene(root, 300, 50);
+		stage.setScene(scene);
+		
+		//Mostramos o escenario
+		stage.show();
+		
+	}
+}

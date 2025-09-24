@@ -28,16 +28,9 @@ public class FXParamApp extends Application{
 	stage.setScene(new Scene(root));
 	stage.setTitle("Parametros de la Aplicación");
 	stage.show();
-	
-	
+
 	}
-	
-	
-	
-	
 	public static void main(String[] args) {
 		Application.launch(args);
-		
-
 	}
 }

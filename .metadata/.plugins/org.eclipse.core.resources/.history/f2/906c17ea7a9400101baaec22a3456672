@@ -1,0 +1,10 @@
+package com.jdojo.intro;
+
+public class FXLifeCycleApp extends{
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
