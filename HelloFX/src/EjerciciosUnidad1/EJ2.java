@@ -29,7 +29,8 @@ public class EJ2 extends Application{
     btnVermello.setOnAction(e -> root.setBackground(new Background(new BackgroundFill(Color.RED, null, null))));
     btnVerde.setOnAction(e -> root.setBackground(new Background(new BackgroundFill(Color.GREEN,null , null))));
     btnAzul.setOnAction(e -> root.setBackground(new Background(new BackgroundFill( Color.BLUE, null, null))));
-
+    
+    //Facemos que o nodo raíz colla ós seus fillos
     root.getChildren().addAll(btnVermello, btnVerde, btnAzul);
 
     //Poñemoslle título á escena
