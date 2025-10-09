@@ -38,9 +38,7 @@ public class EJ8 extends Application{
         Button btnRestar = new Button("-");
         Button btnMultiplicar = new Button("*");
         Button btnDividir = new Button("/");
-
-
-        
+  
         //Manejamos los botenes asignandole sus operaciones
         btnSumar.setOnAction(e -> {
             Double Operando1 = Double.parseDouble(txtf1.getText());
