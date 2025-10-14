@@ -4,7 +4,6 @@ import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
-import javafx.scene.control.TextField;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
@@ -18,7 +17,7 @@ public class EJ3 extends Application{
 
         //Creamos unha etiqueta(Label) con texto
         Label nameLbl = new Label("Contador: " + contador);
-		TextField nameFld = new TextField();
+		
         //Creamos el botón incrementar
         Button boton = new Button("Incrementar");
         //Crear controlador para manexar o evento dos botóns
