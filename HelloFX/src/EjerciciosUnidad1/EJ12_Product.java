@@ -45,10 +45,14 @@ public class EJ12_Product {
     }
 
     public void addPropertyListener(PropertyChangeListener listener){
+        pcs.addPropertyChangeListener(listener);
+    }
+
+    public void removePropertyChangeListener(PropertyChangeListener listener) {
         pcs.removePropertyChangeListener(listener);
     }
 
     public String toString(){
-    return "name = " + name + ", price = " + price;
+    return "Nombre = " + name + ", precio = " + price;
     }
 }
