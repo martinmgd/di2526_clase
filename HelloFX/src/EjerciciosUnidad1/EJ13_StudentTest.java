@@ -34,8 +34,8 @@ public class EJ13_StudentTest {
         String propClassName = p.getClass().getSimpleName();
 
         System.out.print(propClassName);
-        System.out.print("[Name:" + name);
-        System.out.print(", Bean Class:" + beanClassName);
-        System.out.println(", Value:" + value + "]");
+        System.out.print("[Name: " + name);
+        System.out.print(", Bean Class: " + beanClassName);
+        System.out.println(", Value: " + value + "]");
     }
 }
