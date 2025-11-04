@@ -15,8 +15,8 @@ public class EJ13_StudentTest {
         printDetails(estudiante.promedioProperty());
 
         // Cambiar as propiedades do libro
-        estudiante.setNome("Sujeiri Sulin");
-        estudiante.setPromedio (9.49);
+        estudiante.nomeProperty().set("Sujeiri Sulin");
+        estudiante.promedioProperty().set(9.49);
 
         System.out.println("\nDespues de cambiar las propiedades del estudiante...");
 
